@@ -14,9 +14,10 @@ answers_module.basic_io(".")\
 #The output would be {'num_items': 7, 'item_names': ['.git', 'Lab-2', '__pycache__', 'answers_module.py', 'line_plot.py', 'report.md', 'scatter_plot.py'], 'item_types': ['folder', 'folder', 'folder', 'file', 'file', 'file', 'file']}
 
 # For question 3
-M = np.arange(1,13).reshape(3,4)
-answers_module.add2and3(M)
-#This would output np.int64(47). The answer is 47
+M = np.arange(1,13).reshape(3,4)\
+answers_module.add2and3(M)\
+#This would output np.int64(47).\
+#The answer is 47
 
 # For question 4
 answers_module.squareme(M, 1)
