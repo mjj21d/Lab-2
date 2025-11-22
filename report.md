@@ -20,14 +20,14 @@ answers_module.add2and3(M)\
 #The answer is 47
 
 # For question 4
-answers_module.squareme(M, 1)
-#This would output array([25, 36, 49, 64])
+answers_module.squareme(M, 1)\
+#This would output array([25, 36, 49, 64])\
 
 # For question 5
-import matplotlib as plt
-import line_plot
-import scatter_plot
-#This would show the line and scatter plots used in the Lab repo
+import matplotlib as plt\
+import line_plot\
+import scatter_plot\
+#This would show the line and scatter plots used in the Lab repo\
 
 
 #Line Plot
