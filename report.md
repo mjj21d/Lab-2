@@ -1,6 +1,6 @@
 # Lab-2 Report
 
-#Import my repo on git and input the following for each question.
+#Import my repo on git and input the following for each question.\
 #input 'python' to run python script
 
 # For Question 1
