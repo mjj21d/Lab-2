@@ -15,7 +15,7 @@ def myrec(x):
 #Question 2
 import os
 
-def basic_io(path)
+def basic_io(path):
   #folder does not exist
   if not os.path.exists(path):
     print("Folder does not exist.")
