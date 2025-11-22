@@ -10,7 +10,7 @@ answers_module.myrec(5)\
 #The output should be 6.
 
 # For question 2
-answers_module.basic_io(".")
+answers_module.basic_io(".")\
 #The output would be {'num_items': 7, 'item_names': ['.git', 'Lab-2', '__pycache__', 'answers_module.py', 'line_plot.py', 'report.md', 'scatter_plot.py'], 'item_types': ['folder', 'folder', 'folder', 'file', 'file', 'file', 'file']}
 
 # For question 3
