@@ -38,7 +38,7 @@ def basic_io(path)
   return {
     "num_items": len(items),
     "item_names": items,
-    "item_types: types
+    "item_types": types
   }
       
   
