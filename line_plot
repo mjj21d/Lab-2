@@ -1,5 +1,6 @@
 #Line Plot
-
+import matplotlib.pyplot as plt
+import numpy as np
 #Variables
 n = 100
 x = np.linspace(0,2*np.pi,n)
