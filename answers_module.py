@@ -38,7 +38,33 @@ def basic_io(path):
     "item_types": types
   }
       
+ #Question 3
+import numpy as np
+
+def add2and3(matrix):
+  arr = np.asarry(matrix)
+  #Check if matrix is too small
+  if arr.ndim != 2 or arr.shape[0] < 2 or arr. shape[1] < 3:
+    print("Matrix too small.")
+    return None
+  #Add 2nd row and 3rd column
+  sum_second_row_ = arr[1, :].sum()
+  sum_third_column = arr[:, 2].sum()
+  return sum_second_row + sum_third_column
+
+#Question 4
+def squareme(matrix, row):
+  arr = np.asarray(matrix)
+  #Check row
+  if row < 0 or row >= arr.shape[0]:
+    print("Row not found.")
+    return None
+
+  return np.square(arr[row])
   
+    
+  
+
 
   
                     
