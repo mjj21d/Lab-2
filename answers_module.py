@@ -43,7 +43,7 @@ def basic_io(path):
  #Question 3
 
 def add2and3(matrix):
-  arr = np.asarry(matrix)
+  arr = np.asarray(matrix)
   #Check if matrix is too small
   if arr.ndim != 2 or arr.shape[0] < 2 or arr. shape[1] < 3:
     print("Matrix too small.")
