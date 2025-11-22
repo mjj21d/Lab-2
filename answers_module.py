@@ -49,7 +49,7 @@ def add2and3(matrix):
     print("Matrix too small.")
     return None
   #Add 2nd row and 3rd column
-  sum_second_row_ = arr[1, :].sum()
+  sum_second_row = arr[1, :].sum()
   sum_third_column = arr[:, 2].sum()
   return sum_second_row + sum_third_column
 
