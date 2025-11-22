@@ -27,7 +27,7 @@ def basic_io(path):
 
   for item in items:
     full_path = os.path.join(path, item)
-    if os.path.isfile(full_path)
+    if os.path.isfile(full_path):
       types.append("file")
     else:
       types.append("folder")
