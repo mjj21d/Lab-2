@@ -1,6 +1,9 @@
 #Lab 2
+import os
+import numpy as np
 
 #Question 1
+
 def myrec(x):
 # f(x) = 2x - f(x-1), if x>0
 # funtion raises exception if x<0
@@ -13,7 +16,6 @@ def myrec(x):
   return 2*x - myrec(x - 1)
 
 #Question 2
-import os
 
 def basic_io(path):
   #folder does not exist
@@ -39,7 +41,6 @@ def basic_io(path):
   }
       
  #Question 3
-import numpy as np
 
 def add2and3(matrix):
   arr = np.asarry(matrix)
